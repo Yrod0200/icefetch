@@ -1,0 +1,33 @@
+# the order that modules will apear. The ones not listed there will not be shown.
+order = ["hostname", "break", "os", "shell", "packages", "wm-de", "cpu", "ram", "host"]
+
+
+[packages]
+# $manager is the package manager placeholder (apt, flatpak, dnf) 
+# whereas $order is the package amount placeholder
+format = "$manager ($amount) "
+
+# the order that package managers will apear. The ones not listed there will not be shown.
+# (not installed providers will not be shown there too.)
+order = ["flatpak"]
+
+
+[logo]
+# Forces the Gentoo logo to load. You can also set this to any ascii filepath.
+# path = "./ascii/default/gentoo.ascii" 
+
+[modules]
+
+# the formatting of the modules. $content is a placeholder for the module execution result.
+# when no $content is found
+
+packages.format = "packages ✦  $content"
+wm-de.format = "de       ✦  $content"
+kernel.format = "kernel   ✦  $content"
+hostname.format = "$content"
+os.format = "os       ✦  $content"
+shell.format = "shell    ✦  $content"
+cpu.format = "cpu      ✦  $content"
+ram.format = "ram      ✦  $content"
+host.format = "host     ✦  $content"
+break.format = "----------"
