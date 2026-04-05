@@ -39,7 +39,7 @@ the program will be built and installed on your system. enjoy!
 <strong>the support for various distro packages will be brought soon.</strong>
 
 
-# Configuration
+# configuration
 
 the wiki will be made soon. in the meantime, the default icefetch.toml should give you the info needed for ricing your own fetch.
 
