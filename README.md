@@ -1,5 +1,7 @@
-# ![logo](art/logo.svg) icefetch
+# ![logo](art/logo-blurry.png) icefetch
 the #1 linux fetch backend! really really fast, easily customizable and lightweight. some features below.
+
+# ![print](art/prints/debian.png)
 
 <h2>really fast</h2>
 icefetch uses golang, which is an extremely fast language but still easy to use. this makes the update times really short, whereas the app remains light and fast 
